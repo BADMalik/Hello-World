@@ -33,7 +33,6 @@ class ArticleController extends Controller
       ]);
       Article::create($validatedArticle);
       // $article = new Article();
-      //
       // $article->body = request('body');
       // $article->title = request('title');
       // $article->excerpt = request('excerpt');
