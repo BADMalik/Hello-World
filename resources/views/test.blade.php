@@ -1,4 +1,4 @@
 test
 
 
-{{$post->body}}
+{{$Bilal}}

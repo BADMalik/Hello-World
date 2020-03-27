@@ -16,6 +16,12 @@
             <li>
               <p>{{$article->body}}</p>
             </li>
+
+              @foreach($article->tags as $tags )
+            <li>
+              <a href="{{route('articles.index',['tag'=>$tags->name])}}">{{$tags ->name}}</a>
+            </li>
+            @endforeach
             @endforeach
           </ul>
     </div>

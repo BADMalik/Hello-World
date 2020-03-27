@@ -22,7 +22,7 @@ Route::get('/',function ()
 });
 
 Route::get('/articles/create','ArticleController@create');
-Route::get('/articles','ArticleController@index');
+Route::get('/articles','ArticleController@index')->name('articles.index');
 Route::post('/articles','ArticleController@store');
 Route::get('/articles/{articleid}','ArticleController@show')->name('articles.show');
 Route::get('/articles/{articleid}/edit','ArticleController@edit');

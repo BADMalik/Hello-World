@@ -4,6 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-CreateArticlesTable	C:\laragon\www\SampleApp1\database\migrations\2020_03_20_140201_create_articles_table.php	/^class CreateArticlesTable extends Migration$/;"	class	line:7
-up	C:\laragon\www\SampleApp1\database\migrations\2020_03_20_140201_create_articles_table.php	/^    public function up()$/;"	function	line:14
-down	C:\laragon\www\SampleApp1\database\migrations\2020_03_20_140201_create_articles_table.php	/^    public function down()$/;"	function	line:35
